@@ -10,7 +10,6 @@ def is_part_of_series(lst):
             lst1.append(calc(i))
     max_num = 4*len(lst)
     make_list(max_num)
-    print(lst1)
     flag = 0
     for l in lst:
         if not l in lst1:
